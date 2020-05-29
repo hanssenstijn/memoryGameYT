@@ -1,0 +1,65 @@
+.row {
+  text-align: center;
+}
+
+.card {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  cursor: pointer;
+}
+
+.card.done{
+  cursor: default;
+}
+
+.card.done:hover {
+  cursor: default;
+  box-shadow: none;
+}
+
+/* 
+Feedback for the user, so they know which card they'll click on (also cursor: pointer)
+*/
+.card:hover {
+  box-shadow: inset 0px 0px 0px 3px red;
+  box-sizing: border-box;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: darkgreen;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.grey {
+  background-color: grey;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.cyan {
+  background-color: cyan;
+}
+
+.color-hidden {
+  background-color: rgb(206, 205, 255);
+  box-shadow: black;
+}
