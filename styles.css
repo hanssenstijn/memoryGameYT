@@ -41,7 +41,7 @@ Feedback for the user, so they know which card they'll click on (also cursor: po
 }
 
 .green {
-  background-color: darkgreen;
+  background-color: green;
 }
 
 .blue {
@@ -64,8 +64,8 @@ Feedback for the user, so they know which card they'll click on (also cursor: po
   background-color: purple;
 }
 
-.cyan {
-  background-color: cyan;
+.darkcyan {
+  background-color: darkcyan;
 }
 
 .gold {
@@ -96,8 +96,8 @@ Feedback for the user, so they know which card they'll click on (also cursor: po
     background-color: beige;
   }
 
- .aqua {
-    background-color: aqua;
+ .lime {
+    background-color: lime;
   }
 
 .chocolate {
@@ -112,8 +112,8 @@ Feedback for the user, so they know which card they'll click on (also cursor: po
     background-color: darkviolet;
   }
 
-.floralwhite {
-    background-color: floralwhite;
+.deeppink {
+    background-color: deeppink;
   }
 
 .greenyellow {
@@ -132,8 +132,8 @@ Feedback for the user, so they know which card they'll click on (also cursor: po
     background-color: navy;
   }
 
-.seashell {
-    background-color: seashell;
+.lightslategray {
+    background-color: lightslategray;
   }
 
 .color-hidden {

@@ -4,10 +4,10 @@ let combosFound = 0;
 
 const colors = [
   'blue', 'red', 'orange', 'yellow', 'gray', 'green', 'purple',
-  'cyan', 'gold', 'black', 'brown', 'magenta', 'pink', 'silver',
-  'beige', 'aqua', 'chocolate', 'darksalmon', 'darkviolet',
-  'floralwhite', 'greenyellow', 'indianred', 'indigo',
-  'navy', 'seashell',
+  'darkcyan', 'gold', 'black', 'brown', 'magenta', 'pink', 'silver',
+  'beige', 'lime', 'chocolate', 'darksalmon', 'darkviolet',
+  'deeppink', 'greenyellow', 'indianred', 'indigo',
+  'navy', 'lightslategray',
 ]
 
 const cards = [...document.querySelectorAll('.card')];
