@@ -1,10 +1,30 @@
-body{
+@font-face { font-family: Delicious; src: url('myserver.com/fonts/Delicious-Roman.ttf'); } 
+
+ody{
   background-color: #16406d;
 }
 
 .topBar {
   background-color: black;
   height: 70px;
+}
+
+.gameName{
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+}
+
+.player{
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+}
+
+.points{
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
 }
 
 .row {

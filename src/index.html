@@ -3,22 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Memory Games</title>
+  <title>SH Memory Game</title>
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
 
   <div class="d-flex flex-row justify-content-around topBar">
-    <div class="py-2">Logo</div>
+    <div class="py-2">
+      <p class="gameName">Game name</p>
+    </div>
     <div class="py-3">
-      <p>Player</p>
+      <p class="player">Player</p>
     </div>
     <div class="py-2">
-      <p>Points</p>
+      <p class="points">Points</p>
     </div>
   </div>
 
@@ -88,7 +90,7 @@
       <div class="card color-hidden" onclick="onCardClicked(event)"></div>
     </div>
   </div>
-  <script src="main.js"></script>
+  <script src="./main.js"></script>
 </body>
 
 </html>
