@@ -1,6 +1,9 @@
-@font-face { font-family: Delicious; src: url('myserver.com/fonts/Delicious-Roman.ttf'); } 
+@font-face {
+  font-family: 'zorque';
+  src: URL('../fonts/zorque.ttf') format('truetype');
+}
 
-ody{
+body{
   background-color: #16406d;
 }
 
@@ -10,9 +13,9 @@ ody{
 }
 
 .gameName{
-  font-weight: bold;
-  font-size: 25px;
+  font-size: 40px;
   color: white;
+  font-family: zorque;
 }
 
 .player{
