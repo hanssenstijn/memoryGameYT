@@ -47,7 +47,7 @@ function onCardClicked(e) {
     } else {
       combosFound++;
       clickedCard = null;
-      if (combosFound === 8) {
+      if (combosFound === 25) {
         alert('END OF THE GAME');
       }
     }
