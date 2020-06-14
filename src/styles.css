@@ -34,7 +34,7 @@ body{
   display: inline-block;
   width: 90px;
   height: 90px;
-  background-color: black;
+  background-color: darkred;
   cursor: pointer;
   margin: 3px 3px 3px 3px;
 }
