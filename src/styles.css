@@ -25,7 +25,6 @@ body{
 }
 
 .flex-container{
-  position: absolute;
   top: 125px;
   left: 50px;
 }
@@ -168,13 +167,11 @@ Feedback for the user, so they know which card they'll click on (also cursor: po
   font-size: 50px;
   color: white;
   font-family: zorque;
-  position: absolute;
   top: 150px;
   right: 150px;
 }
 
 .players {
-  position: absolute;
   top: 250px;
   right: 200px;
   width: 250px;
@@ -196,7 +193,6 @@ Feedback for the user, so they know which card they'll click on (also cursor: po
 }
 
 .footer{
-  position: absolute;
   bottom: 0;
 }
 
