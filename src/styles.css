@@ -30,9 +30,8 @@ body{
 }
 
 .card {
-  display: inline-block;
-  width: 75px;
-  height: 75px;
+  width: 80px;
+  height: 80px;
   background-color: darkred;
   cursor: pointer;
   margin: 3px 3px 3px 3px;
