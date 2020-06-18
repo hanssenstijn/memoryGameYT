@@ -9,7 +9,6 @@ body{
 
 .topBar {
   background-color: black;
-  height: 70px;
 }
 
 .gameName{
@@ -22,11 +21,6 @@ body{
   font-size: 40px;
   color: white;
   font-family: zorque;
-}
-
-.flex-container{
-  top: 125px;
-  left: 50px;
 }
 
 .card {
