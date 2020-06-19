@@ -15,20 +15,20 @@
 </head>
 
 <body>
-  <div class="container topBar mb-4">
+  <div class="container-fluid topBar mb-4">
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-5 offset-md-1">
         <p class="gameName">SH Memory Game</p>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-5 offset-md-1">
         <p class="playerPoints">PlayingPlayer - Points #</p>
       </div>
     </div>
   </div>
 
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
-      <div class="col-md-10">
+      <div class="col-md-8">
         <div class="d-inline-block card color-hidden" onclick="onCardClicked(event)"></div>
         <div class="d-inline-block card color-hidden" onclick="onCardClicked(event)"></div>
         <div class="d-inline-block card color-hidden" onclick="onCardClicked(event)"></div>
@@ -81,14 +81,16 @@
         <div class="d-inline-block card color-hidden" onclick="onCardClicked(event)"></div>
       </div>
 
-      <div class="col-md-2">
+      <div class="col-md-3">
         <p class="scoreboard">SCOREBOARD</p>
-        <div class="d-inline-block players text-center">
-          <p class="player">1. 1234567890 #</p>
-          <p class="player">2. Player #</p>
-          <p class="player">3. Player #</p>
-          <p class="player">4. Player #</p>
-          <p class="player">5. Player #</p>
+        <div class="d-inline-block players text-center px-3">
+          <div class="player">
+            <p>1. 1234567890 14</p>
+            <p>2. Player #</p>
+            <p>3. Player #</p>
+            <p>4. Player #</p>
+            <p>5. Player #</p>
+          </div>
         </div>
       </div>
     </div>
