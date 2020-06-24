@@ -24,8 +24,8 @@ body{
 }
 
 .card {
-  width: 85px;
-  height: 85px;
+  width: 100px;
+  height: 100px;
   background-color: darkred;
   cursor: pointer;
   margin: 3px 3px 3px 3px;
