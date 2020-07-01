@@ -9,8 +9,7 @@ Coding a Javascript Memory Game Tutorial.
 ## Project
 The memory game has 50 cards in total. There are 25 colors to be matched.
 
-![memory Game](
-memoryGameYT/img/memoryGameExample.png)
+![Alt text](./img/memoryGameExample.png?raw=true "Title")
 
 ## Technologies
 Project is created with:
